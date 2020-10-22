@@ -3,6 +3,7 @@
 
 @section('css')
     <link rel="stylesheet" href="{{ asset('css/welcome.css') }}" />
+
 @endsection
 
 @section('content')
@@ -41,6 +42,24 @@
         </a>
     </div>
 
-    <!-- Do Categories -->
+    <!-- Categories -->
+
+    <section>
+        <div >
+            <img class="img-category" src="img/support.png" alt="Support_gel">
+            <h1><a href="#"><button>Supports</button></a></h1>
+        </div>
+
+        <div >
+            <img class="img-category" src="img/architecture.jpg" alt="Plan">
+            <h1><a href="#"><button>Plans</button></a></h1>
+        </div>
+
+        <div>
+            <img class="img-category" src="img/impression.jpg" alt="Impression">
+            <h1><a href="#"><button>Impressions</button></a></h1>
+        </div>
+    </section>
+
 
 @endsection

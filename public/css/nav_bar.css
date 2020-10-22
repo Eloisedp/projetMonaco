@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  background-color: #F0EFEF;
+  font-family: "Lato", sans-serif;
+  min-height: 100%;
+  padding-bottom: 120px;
+}
+
+#main {
+  min-height: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  background-color: #CE1126;
+  position: absolute;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 20px;
+}
+
+@media screen and (max-width: 710px) {
+  .footer {
+    height: 70px;
+  }
+}
+/*@media screen and (max-width: 1199px) {
+    .footer {
+        background-color: $white;
+        .footer_links{
+            display: none;
+        }
+        .social {
+            display: none;
+        }
+    }
+}*/
+.nav-bar {
+  display: flex;
+  background-color: #CE1126;
+  height: 100px;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 625px;
+  height: 100px;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links a {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1199px) {
+  .logo img {
+    width: 470px;
+    height: 90px;
+    margin: 5px 0 5px 0;
+  }
+
+  .logo {
+    background-color: #FFFFFF;
+    width: 470px;
+  }
+}
+@media screen and (max-width: 805px) {
+  .logo img {
+    width: 370px;
+    height: 70px;
+    margin: 15px 0 15px 0;
+  }
+
+  .logo {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .nav-bar {
+    height: 70px;
+  }
+
+  .logo img {
+    width: 235px;
+    height: 50px;
+    margin: 10px 0 10px 0;
+  }
+
+  .logo {
+    width: 235px;
+    height: 70px;
+  }
+
+  .links {
+    height: 70px;
+  }
+
+  .links a {
+    font-size: 13px;
+    margin-left: 20px;
+  }
+}
+
+/*# sourceMappingURL=nav_bar.css.map */

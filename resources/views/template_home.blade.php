@@ -19,12 +19,14 @@
 <body>
 
     <header>
-        <nav class="nav_bar">
+
+
+        <nav class="nav-bar">
             <div class="logo">
                 <a href="/"> <img  class="logo" src="/img/Capture.png" alt="logo"> </a>
             </div>
             <div class="links">
-                <a class="accueil" href="/">ACCUEIL</a>
+                <a href="/">ACCUEIL</a>
                 <a href="/products">PRODUITS</a>
             </div>
         </nav>
@@ -37,9 +39,7 @@
             <img class="logo" src="/img/Capture.png" alt="logo">
         </div>
 
-        <div class="footer_links">
-            <a href="#">Politique de confidentialité</a>
-            <a href="#">Conditions générales de vente</a>
+        <div class="links">
             <a href="#">Nous contacter</a>
         </div>
 

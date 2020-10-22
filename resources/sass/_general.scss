@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'variable';
 
 *
 {
@@ -17,7 +17,7 @@ body
 {
     min-height: 100%;
     position: relative;
-    background-color: $creme;
+    background-color: $grey;
     font-family: $lato;
     min-height: 100%;
     padding-bottom: 120px;
