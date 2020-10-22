@@ -35,10 +35,10 @@
                 <h2 class = "title">{{$article->name}}</h2>
                 <h3 class = "information">{{$article->dimensions}}</h3>
                 <h3 class = "information">{{$article->price}}</h3>
-                <strong class = "red-button">En savoir plus</strong>
+                <a href="{{route('articles.show',$article->id)}}" class = "red-button">En savoir plus</a>
             </div>
         @endforeach
     </section>
-    
+
 @endsection
 
