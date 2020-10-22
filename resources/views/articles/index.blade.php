@@ -4,17 +4,23 @@
     <link rel="stylesheet" href="{{ asset('css/welcome.css') }}" />
 @endsection
 
-@section
+@section('content')
 
     <section>
         <h2>Catégories</h2>
         @foreach($categories as $category)
-        <input type = "checkbox" name = "{{$category->name}}}" class = "checkcheck"> <label>{{$category->name}}</label>
+            <label>
+                <input type = "checkbox" name = "{{$category->name}}}" class = "checkcheck">
+            </label> <label>{{$category->name}}</label>
         @endforeach
 
         <h2>Prix</h2>
-        <input type = "checkbox" name = "Croissant" class = "checkcheck"> <label>Croissant</label>
-        <input type = "checkbox" name = "Décroissant" class = "checkcheck"> <label>Décroissant</label>
+        <label>
+            <input type = "checkbox" name = "Croissant" class = "checkcheck">
+        </label> <label>Croissant</label>
+        <label>
+            <input type = "checkbox" name = "Décroissant" class = "checkcheck">
+        </label> <label>Décroissant</label>
     </section>
 
     <section>
