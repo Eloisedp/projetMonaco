@@ -1,8 +1,56 @@
 @import 'general';
 
-.img-category
+
+.list-category
 {
-    height: 307px;
-    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.show-category
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-category img
+{
+    margin: 5% 0 1% 0;
+    height: 277px;
+    width: 400px;
     border: solid $blue;
+}
+
+.show-category button
+{
+    @include red-button();
+}
+
+//put it if you need
+/*hr
+{
+    display: block;
+    align-content: center;
+    background-color: $blue;
+    height: 2px;
+    width: 90%;
+    margin: 50px auto 50px auto;
+}*/
+
+@media screen and (max-width: 805px) {
+    .list-category {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+
+    .show-category img
+    {
+        width: 256px;
+        height: 183px;
+    }
+
 }

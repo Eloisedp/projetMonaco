@@ -44,22 +44,25 @@
 
     <!-- Categories -->
 
-    <section>
-        <div >
-            <img class="img-category" src="img/support.png" alt="Support_gel">
-            <h1><a href="#"><button>Supports</button></a></h1>
+    <section class="list-category">
+        <div class="show-category">
+            <img src="img/support.png" alt="Support_gel">
+            <h2><a href="#"><button>Supports</button></a></h2>
         </div>
 
-        <div >
-            <img class="img-category" src="img/architecture.jpg" alt="Plan">
-            <h1><a href="#"><button>Plans</button></a></h1>
+        <div class="show-category">
+            <img src="img/architecture.jpg" alt="Plan">
+            <h2><a href="#"><button>Plans</button></a></h2>
         </div>
 
-        <div>
-            <img class="img-category" src="img/impression.jpg" alt="Impression">
-            <h1><a href="#"><button>Impressions</button></a></h1>
+        <div class="show-category">
+            <img src="img/impression.jpg" alt="Impression">
+            <h2><a href="#"><button>Impressions</button></a></h2>
         </div>
     </section>
+
+    <hr class="separation">
+
 
 
 @endsection

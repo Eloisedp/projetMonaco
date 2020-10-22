@@ -27,6 +27,15 @@ a:hover {
   cursor: pointer;
 }
 
+hr {
+  display: block;
+  align-content: center;
+  background-color: #AEC0C9;
+  height: 2px;
+  width: 90%;
+  margin: 50px auto 50px auto;
+}
+
 .footer {
   display: flex;
   background-color: #CE1126;
