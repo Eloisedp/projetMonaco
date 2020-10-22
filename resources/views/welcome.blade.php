@@ -63,6 +63,18 @@
 
     <hr class="separation">
 
+    <section class = "main-section">
+        @foreach($articles as $article)
+            <div class = "article-div">
+                <img src="{{$article->picture}}" alt = "{{$article->name}}">
+                <br/>
+                <h2 class = "title">{{$article->name}}</h2>
+                <h3 class = "information">{{$article->dimensions}}</h3>
+                <h3 class = "information">{{$article->price}}</h3>
+                <a href="{{route('articles.show',$article->id)}}" class = "red-button">En savoir plus</a>
+            </div>
+        @endforeach
+    </section>
 
 
 @endsection
