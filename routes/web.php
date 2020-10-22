@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', 'Controller@index', function () {
     return view('welcome');
 });
 Route::resource('articles', 'ArticleController');
