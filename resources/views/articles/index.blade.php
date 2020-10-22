@@ -1,3 +1,4 @@
+
 @extends('template_home')
 
 @section('css')
@@ -40,3 +41,4 @@
     </section>
     
 @endsection
+
