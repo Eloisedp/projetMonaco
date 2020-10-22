@@ -13,4 +13,10 @@ class ArticleController extends Controller
         $categories = Category::all();
         return view('articles.index', compact('articles','categories'));
     }
+
+    public function show ($id) {
+        $article = Article::find($id);
+        $category = $article->category->name;
+        return(view('articles.show',compact('article','category')));
+    }
 }
