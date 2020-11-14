@@ -11,7 +11,7 @@
     <title>Les Hydroalcooliques</title>
     <link rel="stylesheet" href="css/nav_bar.css" />
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
     @yield('css')
 
 </head>
