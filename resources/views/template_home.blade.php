@@ -9,7 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <title>Les Hydroalcooliques</title>
-    <link rel="stylesheet" href="css/nav_bar.css'" />
+    <link rel="stylesheet" href="css/nav_bar.css" />
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('css')
