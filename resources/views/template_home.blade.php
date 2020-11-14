@@ -23,7 +23,7 @@
 
         <nav class="nav-bar">
             <div class="logo">
-                <a href="/"> <img  class="logo" src="/img/Capture.png" alt="logo"> </a>
+                <a href="/"> <img  class="logo" src="img/Capture.png" alt="logo"> </a>
             </div>
             <div class="links">
                 <a href="/">ACCUEIL</a>
@@ -36,7 +36,7 @@
 
     <footer class="footer">
         <div class="logo">
-            <img class="logo" src="/img/Capture.png" alt="logo">
+            <img class="logo" src="img/Capture.png" alt="logo">
         </div>
 
         <div class="links">
