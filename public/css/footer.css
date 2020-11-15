@@ -1,37 +1,17 @@
-.footer {
-  display: flex;
-  position: absolute;
-  align-items: center;
-  bottom: 0;
-  width: 100%;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 4 |     background-color: $red;
+ *   |                       ^^^^
+ *   '
+ *   resources\sass\footer.scss 4:23  root stylesheet */
 
-.social {
-  display: flex;
-  justify-content: space-evenly;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 4 \2502      background-color: $red;\a   \2502                        ^^^^\a   \2575 \a   resources\\sass\\footer.scss 4:23  root stylesheet";
 }
-
-.social img {
-  width: 50px;
-  height: 50px;
-  margin: 0 10px 0 20px;
-}
-
-@media screen and (max-width: 710px) {
-  .footer {
-    height: 70px;
-  }
-}
-/*@media screen and (max-width: 1199px) {
-    .footer {
-        background-color: $white;
-        .footer_links{
-            display: none;
-        }
-        .social {
-            display: none;
-        }
-    }
-}*/
-
-/*# sourceMappingURL=footer.css.map */

@@ -1,4 +1,4 @@
-@import 'general';
+@import 'variable';
 
 
 .list-category
@@ -25,6 +25,11 @@
 .show-category button
 {
     @include red-button();
+}
+
+.separation
+{
+    background-color: $blue;
 }
 
 //put it if you need

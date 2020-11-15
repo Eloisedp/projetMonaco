@@ -18,3 +18,31 @@ $white: #FFFFFF;
 $blue: #AEC0C9;
 $black: #57575F;
 $grey: #F0EFEF;
+
+@mixin typical-square
+{
+    width: 800px;
+    height: 60px;
+    background: $white;
+    border: 2px solid $blue;
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin red-button
+{
+    background-color: $red;
+    color: $white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    font-size: $lato-normal;
+}
+
+@mixin title
+{
+    font-size: $lato-big;
+    color: $black;
+}
